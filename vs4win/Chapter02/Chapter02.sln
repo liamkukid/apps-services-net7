@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Common.DataContex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Common.EntityModels.Tests", "Northwind.Common.EntityModels.Tests\Northwind.Common.EntityModels.Tests.csproj", "{0194F89E-D578-4555-8906-C128EDE5DE4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Console.SqlClient", "Northwind.Console.SqlClient\Northwind.Console.SqlClient.csproj", "{E171FDBB-1931-4D02-83B1-7F2E25A4D6B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Console.SqlClient", "Northwind.Console.SqlClient\Northwind.Console.SqlClient.csproj", "{E171FDBB-1931-4D02-83B1-7F2E25A4D6B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Console.EFCore", "Northwind.Console.EFCore\Northwind.Console.EFCore.csproj", "{262D8756-EB6F-4560-A397-3E752B3709BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Console.EFCore", "Northwind.Console.EFCore\Northwind.Console.EFCore.csproj", "{262D8756-EB6F-4560-A397-3E752B3709BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Console.HierarchyMapping", "Northwind.Console.HierarchyMapping\Northwind.Console.HierarchyMapping.csproj", "{98206DA9-CB44-40B4-8A01-8976E1A97886}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Console.HierarchyMapping", "Northwind.Console.HierarchyMapping\Northwind.Console.HierarchyMapping.csproj", "{98206DA9-CB44-40B4-8A01-8976E1A97886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch02Ex02_ADONETvsEFCore", "Ch02Ex02_ADONETvsEFCore\Ch02Ex02_ADONETvsEFCore.csproj", "{3217A3CB-284B-441C-BE52-A57C0762CC89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{98206DA9-CB44-40B4-8A01-8976E1A97886}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98206DA9-CB44-40B4-8A01-8976E1A97886}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98206DA9-CB44-40B4-8A01-8976E1A97886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3217A3CB-284B-441C-BE52-A57C0762CC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3217A3CB-284B-441C-BE52-A57C0762CC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3217A3CB-284B-441C-BE52-A57C0762CC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3217A3CB-284B-441C-BE52-A57C0762CC89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
